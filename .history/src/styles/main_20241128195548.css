@@ -4,14 +4,13 @@ body {
     justify-content: center;
     min-height: 100vh;
     background-color: #e3f2fd;
-    color: #fff;
 }
 
 .container {
     width: 780px;
     border-radius: 20px;
     padding: 35px 40px;
-    background-color: black;
+    border: 1px solid red;
 }
 
 header h2 {
@@ -52,16 +51,4 @@ header .column span {
     left: 0.3rem;
     border-radius: inherit;
     position: absolute;
-    transform: translateY(-50%);
-    transition: all 0.3s ease;
-}
-
-.keys-check input:checked::before {
-    left: 2.1rem;
-    background-color:#8c8c8c;
-}
-
-.piano-keys {
-    display: flex;
-    margin-top: 40px;
 }
