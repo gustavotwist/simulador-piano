@@ -65,7 +65,7 @@ header .column span {
 
 .keys-check input:checked::before {
     left: 2.1rem;
-    background-color:#fff;
+    background-color:#8c8c8c;
 }
 
 .piano-keys {
