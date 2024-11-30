@@ -109,6 +109,5 @@ header .column span {
 }
 
 .piano-keys .white:active {
-    box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
-    background: linear-gradient(to bottom #000, #434343);
+    box-shadow: inset -5 px 5px 20;
 }
