@@ -14,6 +14,6 @@ pianoKeys.forEach((key) => {
 });
 
 document.addEventListener("keydown", (e) => {
-    playTune(e.key)
+    pl
+    console.log(e.key);
 });
-

@@ -1,4 +1,4 @@
-const pianoKeys = document.querySelectorAll(".piano-keys .key");
+.const pianoKeys = document.querySelectorAll(".piano-keys .key");
 
 let audio = new Audio("src/tunes/a.wav");
 
@@ -14,6 +14,7 @@ pianoKeys.forEach((key) => {
 });
 
 document.addEventListener("keydown", (e) => {
-    playTune(e.key)
+    playTune(e)
+    console.log(e.key);
 });
 
