@@ -9,8 +9,8 @@ const playTune = (key) => {
     const clickedKey = document.querySelector(`[data-key="${key}"]`);
     clickedKey.classList.add("active");
     setTimeout(() => {
-        clickedKey.classList.remove("active");
-    }, 150);
+        clickedKey
+    })
 };
 
 

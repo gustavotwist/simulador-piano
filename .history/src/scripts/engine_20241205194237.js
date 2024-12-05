@@ -7,10 +7,6 @@ const playTune = (key) => {
     audio.play();
 
     const clickedKey = document.querySelector(`[data-key="${key}"]`);
-    clickedKey.classList.add("active");
-    setTimeout(() => {
-        clickedKey.classList.remove("active");
-    }, 150);
 };
 
 
