@@ -37,10 +37,10 @@ const handleVolume = (e) => {
 };
 
 const showHiderKeys = () => {
-    pianoKeys.forEach(key => key.classList.toggle("hide"))
+    piano
 }
 
 volumeSlider.addEventListener("input", handleVolume);
 
-keysCheck.addEventListener("click", showHiderKeys);
+keysCheck.addEventListener("click")
 

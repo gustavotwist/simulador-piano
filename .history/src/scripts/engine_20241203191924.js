@@ -1,1 +1,0 @@
-ueruerconst pianoKeys = document.q
